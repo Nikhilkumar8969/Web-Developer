@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gupta Online Book Store - Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #2589ee;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .logo {
+            float: left;
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            color: black;
+            line-height: 80px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .menu {
+            background-color: #dddddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu a {
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        section{
+            background:white;
+            margin:20px auto;
+            padding:20px;
+            width:80%
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse
+        }
+
+        th,td{
+            border:1px solid #999;
+            padding:10px;
+            text-align:center
+        }
+
+        input,textarea{
+            padding:7px;
+            margin:5px
+        }
+
+        .books{
+            display:flex;
+            gap:15px
+        }
+
+        .book{
+            border:1px solid #aaa;
+            padding:15px;flex:1
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" width="80" height="80">
+        </div>
+        <h1> Gupta Online Book Store</h1>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="menu">
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Registration</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="cart.html">Cart</a>
+    </div>
+
+    <section id="home">
+    <h2>Welcome to Gupta Online Book Store</h2>
+    <p>Find your favourite books at one place.</p>
+    <h3>Popular Books</h3>
+    <div class="books">
+        <div class="book"><b>Let Us C++</b><br>Yashavant Kanetkar<br>₹850</div>
+        <div class="book"><b>Data Structures</b><br>Seymour Lipschutz<br>₹900</div>
+        <div class="book"><b>Computer Networks</b><br>Andrew Tanenbaum<br>₹700</div>
+    </div>
+</section>
+
+<section id="login">
+    <h2>Login</h2>
+    <form>
+        Username: <input type="text"><br>
+        Password: <input type="password"><br>
+        <input type="submit" value="Login">
+    </form>
+</section>
+
+<section id="register">
+    <h2>Registration</h2>
+    <form>
+        Name: <input type="text"><br>
+        Email: <input type="email"><br>
+        Password: <input type="password"><br>
+        Gender:
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female<br>
+        Address:<br>
+        <textarea></textarea><br>
+        <input type="submit" value="Register">
+    </form>
+</section>
+
+<section id="catalog">
+    <h2>Book Catalog</h2>
+    <table>
+        <tr><th>Book</th><th>Author</th><th>Price</th></tr>
+        <tr><td>Let Us C++</td><td>Yashavant Kanetkar</td><td>₹850</td></tr>
+        <tr><td>Data Structures</td><td>Seymour Lipschutz</td><td>₹900</td></tr>
+        <tr><td>Computer Networks</td><td>Andrew Tanenbaum</td><td>₹700</td></tr>
+    </table>
+</section>
+
+<section id="cart">
+    <h2>Shopping Cart</h2>
+    <table>
+        <tr><th>Book</th><th>Price</th><th>Quantity</th></tr>
+        <tr><td>Let Us C++</td><td>₹850</td><td>1</td></tr>
+        <tr><td>Data Structures</td><td>₹900</td><td>1</td></tr>
+        <tr><th colspan="2">Total</th><th>₹1750</th></tr>
+    </table>
+</section>
+
+<footer style="text-align:center;padding:15px">
+    © 2026 Gupta Online Book Store
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>

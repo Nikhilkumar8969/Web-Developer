@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA PROJECT</title>
+
+    <style>
+        * {
+            margin: 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f5;
+            color: #955353;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: white;
+            padding: 25px 8%;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        header h1 {
+            color: #2463b5;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .projects {
+            max-width: 1100px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .projects h2 {
+            color: #2463b5;
+            margin-bottom: 10px;
+        }
+
+        .projects p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        .project-card {
+            display: flex;
+            align-items: center;
+            min-height: 48px;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 1px solid #eeeeea;
+            border-radius: 8px;
+            color: #31577f;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.25s ease;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 18px;
+        }
+
+        a {
+            color: #2463b5;
+            text-decoration: none;
+            font-size: 28px;
+            border: 1px solid #2463b5;
+            box-sizing: border-box;
+            padding: 10px 15px;
+        }
+
+        main {
+            padding: 20px;
+            font-size: 28px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Web Development Projects</h1>
+        <p>
+            Personal repository containing basic web pages,
+            layouts, and frontend practice projects.
+        </p>
+    </header>
+
+    <main class="projects">
+        <h2>My Projects</h2>
+        <p>Select a project below to open its webpage.</p>
+
+        <div class="project-grid" id="projectGrid">
+
+            <a href="education.html">Education</a>
+            <a href="cv.html">CV</a>
+            <a href="login.html">Login</a>
+            <a href="Q3.html">Q3</a>
+            <a href="webpage.html">Webpage</a>
+            <a href="Website.html">Website</a>
+            <a href="bookstore.html">Bookstore</a>
+            <a href="box.html">Box</a>
+
+        </div>
+
+        
+    </main>
+
+    <footer>
+        My Web Development Projects | Created using HTML and CSS
+    </footer>
+
+   
+
+</body>
+</html>
